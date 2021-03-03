@@ -1,0 +1,67 @@
+nav{
+	width: 7%;
+	height: 44px;
+	background-color: green;
+	background-opacity: 0.5;
+}
+
+nav ul{
+	float: left;
+}
+
+nav ul li{
+	float: left;
+	list-style: none;
+	width: 60px;
+}
+
+nav ul li a{
+	display: block;
+	font-family: arial;
+	font-size: 14px;
+	padding: 14px 14px;
+	text-decoration: none;
+}
+
+nav ul li ul{
+	display: none;
+	position: absolute;
+	background-color: green;
+	border-radius: 4px;
+}
+
+nav ul li: hover ul{
+	display: block;
+}
+
+nav ul li ul li{
+	width: 180px;
+	border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li ul li a{
+	padding: 14px 14px;
+}
+
+nav ul li ul li a: hover{
+	background-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
